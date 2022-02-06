@@ -61,7 +61,9 @@ $keys_placeholder,
     <br>
 
     <?php endif; ?>
-
+    <ul>
+        <li><a href="http://localhost/PHPTutorials/">Back</a> </li>
+    </ul>
     <form action="" method="POST">
         <label for="title">Idea Title</label>
         <input type="text" name="title" value="<?php if(isset($_POST['title'])){echo $_POST['title'];} ?>">
