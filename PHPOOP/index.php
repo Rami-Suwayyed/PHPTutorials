@@ -14,6 +14,7 @@ and open the template in the editor.
        echo 'hellow from netbeans';
         ?>
         <ul>
+        <li><a href="http://localhost/PHPTutorials/">Back</a> </li>
             <li> <a href="CarsCalls.php">Simple Class</a></li>
             <li> <a href="Employee.php">Properties  and methods Class</a></li>
             <li> <a href="Constructor.php">Constructor</a></li>
@@ -24,13 +25,13 @@ and open the template in the editor.
              <li> <a href="interface.inc">implement</a></li>
              <li> <a href="staticView.php">static</a></li>
             <li> <a href="dbconnect.php">Database connect</a></li>
-          <li> <a href="dbread.php">Database Read</a></li>  
-          <li> <a href="dbinsert.php">Database Insert</a></li>
-          <li> <a href="dbupdate.php">Database update</a></li>
-          <li> <a href="dbdelete.php">Database delete</a></li>
-          <li> <a href="dbsearch.php">Database search</a></li>
-          <li> <a href="json.php">json</a></li>
-          <li> <a href="jsonDB.php">mysql json</a></li>
+            <li> <a href="dbread.php">Database Read</a></li>  
+            <li> <a href="dbinsert.php">Database Insert</a></li>
+            <li> <a href="dbupdate.php">Database update</a></li>
+            <li> <a href="dbdelete.php">Database delete</a></li>
+            <li> <a href="dbsearch.php">Database search</a></li>
+            <li> <a href="json.php">json</a></li>
+            <li> <a href="jsonDB.php">mysql json</a></li>
         </ul>
     </body>
 </html>
