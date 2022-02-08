@@ -36,4 +36,7 @@ How to run tow  project loginform and Admin-and-user-login:
 8) In order to create an admin, use a client like phpmyadmin and manually create a user with user_type admin. Use this user to login and be able to create other users.
 
 
+
+
+
 Thanks
