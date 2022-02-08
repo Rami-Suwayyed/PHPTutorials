@@ -1,5 +1,5 @@
 <?php 
-// echo md5(12345678);
+//  echo md5(12345);
    session_start();
    if (!isset($_SESSION['username']) && !isset($_SESSION['id'])) {   ?>
 <!DOCTYPE html>
@@ -16,7 +16,9 @@
       	      method="post" 
       	      style="width: 450px;">
       	      <h1 class="text-center p-3">LOGIN</h1>
-      	      <?php if (isset($_GET['error'])) { ?>
+				<a href="http://localhost/PHPTutorials/" class="btn btn-info" style="text-decoration:none; color: white; ">Back</a> 
+				<br><br>
+				<?php if (isset($_GET['error'])) { ?>
       	      <div class="alert alert-danger" role="alert">
 				  <?=$_GET['error']?>
 			  </div>
